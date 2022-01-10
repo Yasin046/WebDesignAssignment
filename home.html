@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="fontawesome-free-5.13.1-web/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/stylesheet/reset.css">
+    <link rel="stylesheet" href="/stylesheet/main.css">
+    <script src="/js/main.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header-top">
+            <div class="container">
+                <div class="row site-header">
+                    <a class="site-logo" href="#">
+                        CARD GAMES
+                    </a>
+                    <div class="header-box">
+                        <a onclick="showAlert()" class="login" id="login" href="games.html">
+                            Login
+                        </a>
+                        <a class="register" id="register">
+                            Register
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container home-content">
+            <div class="offer">
+                <img src="/images/mga-visa-master.png" alt="">
+                <h1>Exlusive player bonus</h1>
+                    <p>
+                        GET UP TO 50€ <br> WORTH OF FREE CREDIT
+                    </p>
+            </div>
+            <div class="bait">
+                <button id="Rbutton" class="join-button">
+                    REGISTER
+                </button>
+                <div class="register-form" id="Rform">
+                    <form action="games.html" name="registration">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input placeholder="Enter your name" type="text" name="name" id="name" class="form-control" />
+                        </div>
+                        <div class="form-group">
+                            <label for="surname">Surname</label>
+                            <input placeholder="Enter your Surname" type="text" name="surname" id="surname" class="form-control" />
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input placeholder="Enter your Email" type="text" name="email" id="email" class="form-control" />
+                        </div>
+                        <div class="form-group">
+                            <label for="phone number">Phone number</label>
+                            <input placeholder="Enter your phone number" type="text" name="phoneNumber" id="phone-number" class="form-control" />
+                        </div>
+                        <div class="button-box">
+                            <button type="submit" class="submit-button">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+       <div class="bottom-footer">
+            <div class="container-sm main-footer">
+                <h1>Yasin Surucu 4.1G©</h1>
+            </div>
+       </div>
+    </footer>
+</body>
+</html>

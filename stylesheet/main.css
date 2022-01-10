@@ -1,0 +1,335 @@
+.font-awesome-solid {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+}
+body {
+  min-height: 100vh;
+  font-family: "Montserrat", sans-serif;
+}
+header .header-top {
+  height: 60px;
+  background-color: #171717;
+}
+header .header-top .site-header {
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+header .header-top .site-header .site-logo {
+  background-color: #7ff800;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px 20px;
+  color: #212529;
+  border-radius: 15px;
+  text-decoration: none;
+}
+header .header-top .site-header .header-box {
+  display: flex;
+  padding-top: 5px;
+}
+header .header-top .site-header .header-box .login {
+  width: 120px;
+  height: 30px;
+  margin-right: 10px;
+  border-radius: 2px;
+  background-color: #303030;
+  border-bottom: 2px solid #349fff;
+  color: white;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: -0.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  cursor: pointer;
+  text-decoration: none;
+}
+header .header-top .site-header .header-box .login:before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  background: url(/images/user-solid.svg) no-repeat center;
+  background-size: contain;
+}
+header .header-top .site-header .header-box .register {
+  width: 110px;
+  height: 30px;
+  border-radius: 2px;
+  background-color: #303030;
+  border-bottom: 2px solid #63c840;
+  color: white;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: -0.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  cursor: pointer;
+}
+header .header-top .site-header .header-box .register:before {
+  content: " ";
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  background: url(/images/user-regular.svg) no-repeat center;
+  background-size: contain;
+}
+header .bottom-header {
+  background-color: #171717;
+  border-top: 0.5px solid #7ff800;
+  padding: 10px;
+}
+header .bottom-header .navigation ul {
+  display: flex;
+  justify-content: space-between;
+}
+header .bottom-header .navigation ul .nav-content a {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
+header .bottom-header .navigation ul .nav-content #games:before {
+  content: " ";
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  background: url(/images/gamepad-solid.svg) no-repeat center;
+  background-size: contain;
+  position: relative;
+  top: 5px;
+  right: 10px;
+}
+header .bottom-header .navigation ul .nav-content #about-us:before {
+  content: " ";
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  background: url(/images/question-circle-regular.svg) no-repeat center;
+  background-size: contain;
+  position: relative;
+  top: 5px;
+  right: 10px;
+}
+header .bottom-header .navigation ul .nav-content #contact-us:before {
+  content: " ";
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  background: url(/images/file-alt-regular.svg) no-repeat center;
+  background-size: contain;
+  position: relative;
+  top: 5px;
+  right: 10px;
+}
+#contact-main {
+  display: block;
+}
+main {
+  background-color: #1f1f1f;
+  padding: 1px;
+  width: 100%;
+  min-height: 100vh;
+  background-size: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .home-content {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  justify-content: space-between;
+  display: flex;
+}
+main .home-content .offer img {
+  max-width: 80%;
+}
+main .home-content .offer h1 {
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+  /* margin-right: 70%; */
+  font-family: "Montserrat", sans-serif;
+  padding: 5px;
+  width: 300px;
+  font-weight: bold;
+}
+main .home-content .offer p {
+  background: #303030;
+  font-size: 30px;
+  font-weight: 500;
+  color: white;
+  /* margin-right: 70%; */
+  font-family: "Montserrat", sans-serif;
+  padding: 5px;
+  font-weight: bold;
+}
+main .home-content .bait {
+  background-color: #303030;
+  border-radius: 25px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+main .home-content .bait .join-button {
+  background-color: #7ff800;
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 27px;
+  border: none;
+  outline: none;
+  transition: 0.5s;
+}
+main .home-content .bait .join-button:active {
+  border-style: outset;
+}
+main .home-content .bait .join-button:hover {
+  -moz-box-shadow: 0 0 25px #7ff800;
+  -webkit-box-shadow: 0 0 25px #7ff800;
+  box-shadow: 0 0 25px #7ff800;
+}
+main .home-content .bait .register-form {
+  padding-top: 15px;
+  display: none;
+}
+main .home-content .bait .register-form .form-group label {
+  font-size: 10px;
+  font-weight: 700;
+  color: white;
+  display: block;
+  margin-bottom: 10px;
+}
+main .home-content .bait .register-form .form-group .form-control {
+  margin-bottom: 5px;
+}
+main .home-content .bait .register-form .button-box {
+  display: flex;
+  justify-content: flex-end;
+}
+main .home-content .bait .register-form .button-box .submit-button {
+  border-radius: 10px;
+  padding: 5px;
+  font-weight: bold;
+  background-color: #7ff800;
+  border: none;
+  outline: none;
+  transition: 0.5s;
+}
+main .home-content .bait .register-form .button-box .submit-button:hover {
+  -moz-box-shadow: 0 0 25px #7ff800;
+  -webkit-box-shadow: 0 0 25px #7ff800;
+  box-shadow: 0 0 25px #7ff800;
+}
+main .contact-content {
+  background-color: white;
+  display: grid;
+  border-radius: 10px;
+  margin-top: 120px;
+}
+main .contact-content .contact-text {
+  display: grid;
+  padding: 20px;
+}
+main .contact-content .contact-text .contact-title {
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 1.16;
+  letter-spacing: 0.91px;
+  color: #1f1f1f;
+}
+main .contact-content .contact-text .contact-detail {
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 2;
+  letter-spacing: 0.31px;
+  columns: #1f1f1f;
+  padding-top: 10px;
+}
+main .contact-content .contact-form {
+  display: grid;
+}
+main .contact-content .contact-form .comments {
+  height: 167px;
+  border-radius: 5px;
+  border: solid 1px rgba(155, 155, 155, 0.5);
+  background-color: #ffffff;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: "Quicksand", sans-serif;
+  letter-spacing: 0.29px;
+  color: #1f1f1f;
+  margin-bottom: 5px;
+  padding: 30px;
+}
+main .contact-content .contact-form .comments:focus {
+  outline: none;
+}
+main .contact-content .contact-form .personal-details {
+  height: 57px;
+  border-radius: 5px;
+  border: solid 1px rgba(155, 155, 155, 0.5);
+  background-color: #ffffff;
+  margin: 5px 0;
+  font-family: "Quicksand", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.29px;
+  color: #9b9b9b;
+  padding: 23px;
+}
+main .contact-content .contact-form .personal-details:focus {
+  outline: none;
+}
+main .contact-content .contact-form .contactsbmt {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+main .contact-content .contact-form .contactsbmt .contactbtn {
+  width: 130px;
+  height: 39px;
+  border-radius: 5px;
+  border: solid 2px rgba(5, 244, 54, 0.3);
+  background-color: rgba(5, 244, 52, 0.05);
+  font-family: "Quicksand", sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.25px;
+  text-align: center;
+  color: #1f1f1f;
+}
+main .contact-content .contact-form .contactsbmt .contactbtn:focus {
+  outline: none;
+}
+footer {
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+}
+footer .bottom-footer {
+  background-color: #1a1919;
+}
+footer .bottom-footer .main-footer {
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
