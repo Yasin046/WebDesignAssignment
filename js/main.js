@@ -49,7 +49,14 @@ $(function() {
           alert("You are logged in.")
       });
     });
+    $(document).ready(function(){  
+      $(".game-box").click(function(){
+        window.open("https://www.google.com/imgres?imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Ff%2Fff%2FHand_in_Shithead.jpg&imgrefurl=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FShithead_(card_game)&tbnid=cZ4Ca7QoJUjjlM&vet=12ahUKEwiepI3Frqz1AhWmwAIHHbndCWoQMygAegUIARDYAQ..i&docid=V6FyPiKYUv9U-M&w=3024&h=4032&itg=1&q=card%20game&ved=2ahUKEwiepI3Frqz1AhWmwAIHHbndCWoQMygAegUIARDYAQ",'_blank');
+      });
+    });
 });
+
+
 
  
 
