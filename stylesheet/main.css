@@ -166,7 +166,7 @@ main .home-content .offer p {
   font-size: 30px;
   font-weight: 500;
   color: white;
-  /* margin-right: 70%; */
+  margin-right: 10%;
   font-family: "Montserrat", sans-serif;
   padding: 5px;
   font-weight: bold;
@@ -410,20 +410,20 @@ footer .bottom-footer .main-footer {
 }
 @media (max-width: 576px) {
   .header-top .site-header .site-logo {
-    font-size: 14px;
+    font-size: 14px !important;
   }
   .header-top .site-header .header-box .register {
     width: 90px;
     height: 25px;
   }
   .games-content {
-    margin-top: 0px;
+    margin-top: 0px !important;
   }
   .games-content .games-row {
-    margin-top: 0px;
+    margin-top: 0px !important;
   }
   .games-content .games-row .game {
-    margin-top: 20px;
+    margin-top: 20px !important;
   }
   .home-content {
     flex: 1;
